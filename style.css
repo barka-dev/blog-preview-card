@@ -1,0 +1,103 @@
+body{
+    background-color:#f5d04e;
+    font-family: 'Figtree'
+}
+
+main{
+    display:flex;
+    align-items:center;
+    justify-content:center;;
+    height:100vh;
+}
+
+section{
+    width: 15vw;
+    background-color:white;
+    border:1px solid black;
+    padding:15px;
+    border-radius:15px;
+    box-shadow: 7x 7px 0px 0px #010001;
+    -webkit-box-shadow: 7px 7px 0px 0px #010001;
+    -moz-box-shadow: 7px 7px 0px 0px #010001;
+    transition: width 0.3s ease;
+}
+
+/* For smaller screens */
+@media (max-width: 1490px) {
+    section {
+      width: 20vw;
+    }
+  }
+@media (max-width: 1200px) {
+    section {
+      width: 25vw;
+    }
+  }
+
+@media (max-width: 992px) {
+    section {
+        width: 30vw;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 35vw;
+    }
+}
+
+@media (max-width: 576px) {
+    section {
+        width: 50vw;
+    }
+
+}
+@media (max-width: 425px) {
+    section {
+        width: 70vw;
+    }
+
+}
+
+section img{
+    border-radius:10px;
+}
+
+section span{
+    background-color:#f2cc56;
+    border-radius:3px;
+    padding:3px 10px;
+    font-size:0.6rem;
+    margin-top:1rem;
+}
+
+section > p{
+    font-size:0.65rem;
+}
+
+article h1{
+    margin-block-start:1em;
+    margin-block-end:0em;
+}
+
+article h1:hover{
+    color:#f5d04e;
+}
+
+article p{
+    color:#959595;
+    font-size:0.8rem;
+    line-height:1.3rem;
+}
+
+footer{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+footer p{
+    font-size:0.7rem;
+}
+
+
